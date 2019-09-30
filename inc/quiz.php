@@ -73,3 +73,6 @@ function restart() {
 function score() {
     $score = checkAnswer();
     echo "<p class='quiz'>Your final score is " . $score . " out of 10.</p>";
+}
+
+?>
