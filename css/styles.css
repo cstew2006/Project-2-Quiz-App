@@ -1,7 +1,8 @@
 /* Random Quote Generator Styles */
 
 body {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Courier-BoldOblique', serif;
+  background-color: coral;
 }
 
 #quiz-box {
@@ -11,11 +12,14 @@ body {
   right: 10%;
   width: 80%;
   line-height: .5;
+  color: Green;
+  text-align: center;
 }
 
 .breadcrumbs {
-  font-size:2rem;
+  font-size: 2rem;
 }
+
 .quiz {
   font-size: 4rem;
   font-weight: 400;
@@ -24,39 +28,13 @@ body {
   margin: 0;
 }
 
-.source {
-  font-size: 1.25rem;;
-  letter-spacing: 0.05em;
-  line-height: 1.1;
-  text-align: right;
-  margin-right: 4em;
-}
-
-.source:before {
-  content: "—";
-}
-
-.citation {
-  font-style: italic;
-}
-
-.citation:before {
-  content: ", ";
-  font-style: normal;
-}
-
-.year:before {
-  content: ", ";
-  font-style: normal;
-}
-
 .btn {
   width: 12em;
   display: inline-block;
   bottom: 150px;
   border-radius: 4px;
   border: 2px solid #000;
-  color: #fff;
+  color: #FFF;
   background-color: #000;
   padding: 15px;
   margin: 10px;
@@ -65,7 +43,7 @@ body {
 }
 .btn:hover {
   background-color: #FFF;
-  color: #000;
+  color: Blue;
 }
 
 .btn:focus {
