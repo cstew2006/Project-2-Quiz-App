@@ -24,7 +24,7 @@ if ($page <= 10) {
     echo '<input type="hidden" name="correctAnswer" value="' . $questions[$page - 1]['correctAnswer'] . '" />';
     
  
- // Shuffle answer buttons
+ // Shuffle answer buttons 
     $answers = [
         $questions[$page - 1]['correctAnswer'], 
         $questions[$page - 1]['firstIncorrectAnswer'], 
@@ -32,7 +32,7 @@ if ($page <= 10) {
     ];
   
   
-  
+  //Got help by referring to Chizzys program to help me better understand using the shuffle feature
     shuffle($answers);
     echo '<input type="submit" class="btn" name="answer" value="' . $answers[0] . '" />';
     echo '<input type="submit" class="btn" name="answer" value="' . $answers[1] . '" />';
